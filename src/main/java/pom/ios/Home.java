@@ -2,12 +2,8 @@ package pom.ios;
 
 import base.BasePage;
 import io.appium.java_client.AppiumBy;
-import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.remote.options.BaseOptions;
 import org.openqa.selenium.By;
-
-import java.net.MalformedURLException;
-import java.net.URL;
 
 public class Home extends BasePage {
 
@@ -84,15 +80,4 @@ public class Home extends BasePage {
         driver.findElement(confirmLogout).click();
     }
 
-//    public String fetchValidUsernameToLogin() {
-//
-//    }
-//
-//    public String fetchPasswordToLogin() {
-//
-//    }
-//
-//    public String fetchLockedUsernameToLogin() {
-//
-//    }
 }

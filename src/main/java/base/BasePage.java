@@ -27,6 +27,11 @@ public class BasePage {
 
         if (driver == null || driver.getSessionId() == null) {
             driver = new AppiumDriver(options);
+//            try {
+//                this.driver = new AppiumDriver(new URL("http://127.0.0.1:4723"), options);     // The default URL in Appium 1 is http://127.0.0.1:4723/wd/hub
+//            } catch (MalformedURLException e) {
+//                throw new RuntimeException(e);
+//            }
         }
 
     }
