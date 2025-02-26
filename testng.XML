@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestSuite" parallel="classes" thread-count="2">
+    <test name="ParallelTests">
+        <classes>
+            <class name="android.Login_Test"/>
+            <class name="android.ItemDetails_Test"/>
+        </classes>
+    </test>
+</suite>
